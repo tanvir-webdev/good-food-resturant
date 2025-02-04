@@ -76,7 +76,6 @@ body{
 
 .favorite-brands{
     text-align: center;
-    border: 1px dashed gray;
 }
 
 .favorite-brands>h4{
@@ -105,10 +104,6 @@ body{
  .brands{
     display: flex;
     gap: 24px;
-}
-
-.brands img{
-    border: 1px dashed gray;
 }
 
 .brand-subheading{
@@ -154,4 +149,55 @@ body{
     max-width: 424px;
     padding: 180px 0;
     margin: 0 auto;
+}
+
+
+/* ---------About Style----------- */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+.about-text{
+    text-align: center;
+    width: 50%;
+}
+
+.about-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about-description{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+
+.about-subtitle{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #101010;
+    margin: 30px auto;
+}
+
+.about-icons{
+    margin-top: 48px;
+}
+
+.about-icons img{
+    margin-right: 20px;
 }
